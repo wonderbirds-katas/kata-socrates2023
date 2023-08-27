@@ -19,8 +19,5 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\DotnetStarter.Logic\DotnetStarter.Logic.csproj"/>
-    </ItemGroup>
 
 </Project>

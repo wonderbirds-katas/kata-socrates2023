@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using Xunit;
 
-namespace DotnetStarter.Logic.Tests;
+namespace RomanNumerals.Tests;
 
-public class HelloWorldTest
+public class RomanNumeralsTest
 {
     [Theory]
     [InlineData("I")]
@@ -12,7 +12,7 @@ public class HelloWorldTest
     // don't pass all inputs and outputs as parameters
     // one should be fixed or calculated in the test
     // exception - if I test a hashmap
-    public void Hello_ReturnsWorld3(string roman)
+    public void TODO_GiveNiceName3(string roman)
     {
         // if the parameterized test forces to repeat the logic from the code
         // then it's not a good test (smell)
@@ -29,7 +29,7 @@ public class HelloWorldTest
     [InlineData("C", 100)]
     [InlineData("D", 500)]
     [InlineData("M", 1000)]
-    public void Hello_ReturnsWorld4(string roman, int expected)
+    public void TODO_GiveNiceName4(string roman, int expected)
     {
         Assert.Equal(expected, toArabic(roman));
     }
